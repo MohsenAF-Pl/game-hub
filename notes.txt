@@ -7,3 +7,5 @@ git init - git add . - git commit -m "" -
 installing chakra UI -> chakra-ui.com -> we use the instructions for vite -> just follow as the instructions. -> delete everything in index.css to apply only chakra
 
 to apply dark mode go to the docs for chakra, it has everything you need on working with chakra
+
+we're gonna get our data from an api in rawg.io --> then install axios - npm install axios
