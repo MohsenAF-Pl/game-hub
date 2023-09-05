@@ -9,3 +9,5 @@ installing chakra UI -> chakra-ui.com -> we use the instructions for vite -> jus
 to apply dark mode go to the docs for chakra, it has everything you need on working with chakra
 
 we're gonna get our data from an api in rawg.io --> then install axios - npm install axios
+
+we use react icons library so we can show the icons of the games --> npm install react-icons@version --> we use @4.7.1

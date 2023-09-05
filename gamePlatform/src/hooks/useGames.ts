@@ -3,10 +3,17 @@ import apiClient from "../services/api-client";
 import { CanceledError } from "axios";
 
 
+export interface Platform {
+    id: number;
+    name: string;
+    slug: string;
+}
+
 export interface Game {
   id: number;
   name: string;
   background_image: string;
+  parent_platforms: {platform: Platform}[]
 }
 
 interface FetchGamesResponse {
@@ -30,8 +37,7 @@ const useGames = () => {
             if (error instanceof CanceledError) return; 
             setError(error.message)
         });
-        
-        return () => controller.abort();
+    return () => controller.abort();
     }, []);
 return {games, error}
 }
