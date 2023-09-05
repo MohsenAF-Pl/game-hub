@@ -5,3 +5,5 @@ npm install --> to install all the dependecies
 git init - git add . - git commit -m "" - 
 
 installing chakra UI -> chakra-ui.com -> we use the instructions for vite -> just follow as the instructions. -> delete everything in index.css to apply only chakra
+
+
